@@ -1,8 +1,6 @@
 import math
 import sys
-
 import numpy as np
-
 
 class Fabrik:
     def __init__(self, joint_positions, tolerance: float):
@@ -92,7 +90,7 @@ if __name__ == "__main__":
             input("Enter first coordinate: ").strip().split(),
         )
     )[:3]
-
+    
     coord2 = list(
         map(
             int,
